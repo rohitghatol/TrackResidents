@@ -1,0 +1,14 @@
+{
+    "applications": {
+        "TrackResidents": {
+            "applicationId": "snpaAi8AafDSv6tSepOL8lKjqN3wmwbMRqk7amy1", 
+            "masterKey": "s0NV0egHD8dwgYDhJZjEnjHayaLizfsINUpzQ3M5"
+        }, 
+        "_default": {
+            "link": "TrackResidents"
+        }
+    }, 
+    "global": {
+        "parseVersion": "1.2.19"
+    }
+}
