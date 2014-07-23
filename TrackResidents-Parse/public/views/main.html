@@ -1,9 +1,85 @@
-<div class="well" ng-controller="userController">
+<div ng-include="'views/header.html'"></div>
+<div ng-controller="residentController">
+    <div>
+        <table>
+            <tr>
+                <td>
+                    First Name
+                </td>
+                <td>
+                    <input ng-model="firstName">
+                </td>
 
-    <h1>Logged In</h1>
+            </tr>
+            <tr>
+                <td>
+                    Last Name
+                </td>
+                <td>
+                    <input ng-model="lastName">
+                </td>
 
-    <button ng-click="logout()"
-            class="btn btn-primary">
-        Log out
-    </button>
+            </tr>
+            <tr>
+                <td>
+                    Building Number
+                </td>
+                <td>
+                    <input ng-model="buildingNumber">
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Flat Number
+                </td>
+                <td>
+                    <input ng-model="flatNumber">
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Phone Number 1
+                </td>
+                <td>
+                    <input ng-model="phoneNum1">
+                </td>
+
+            </tr>
+            <tr>
+                <td>
+                    Phone Number 2
+                </td>
+                <td>
+                    <input ng-model="phoneNum2">
+                </td>
+
+            </tr>
+            <td>
+                <button ng-click="add(firstName,lastName,buildingNumber,flatNumber,phoneNum1,phoneNum2)"
+                        class="btn btn-primary">
+                    Add Resident
+                </button>
+            </td>
+            <td>
+
+            </td>
+
+            </tr>
+        </table>
+    </div>
+
+    <div>
+        <div>
+            <input ng-model="query"></input>
+            <button ng-click="search(query)"
+                    class="btn btn-primary">
+                Search Resident
+            </button>
+            <div ng-repeat="child in result">
+                <div>{{child.attributes.firstName}}</div>
+            </div>
+        </div>
+    </div>
 </div>
