@@ -1,5 +1,5 @@
 angular.module("TrackResidents")
-    .controller("userController", function ($scope,  $location) {
+    .controller("userController",["$scope","$location", function ($scope,  $location) {
 
         $scope.authenticate = function (username, password) {
 
@@ -22,4 +22,4 @@ angular.module("TrackResidents")
             $location.path("/login");
 
         }
-    });
+    }]);

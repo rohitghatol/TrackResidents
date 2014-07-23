@@ -1,10 +1,5 @@
 angular.module("TrackResidents")
-    .controller("appController", function ($scope, $location) {
+    .controller("appController", ["$scope","$location",function ($scope, $location) {
 
-        $scope.logout = function (username, password) {
 
-            Parse.User.logOut();
-            delete $scope.sessionUser;
-
-        }
-    });
+    }]);

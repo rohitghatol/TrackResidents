@@ -26,7 +26,16 @@
       <file leaf-file-name="app.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="49" selection-start="488" selection-end="488" vertical-scroll-proportion="0.3761062" vertical-offset="0" max-vertical-offset="678">
+            <state line="17" column="46" selection-start="485" selection-end="485" vertical-scroll-proportion="0.3761062" vertical-offset="0" max-vertical-offset="678">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/components/parse-angular-patch/README.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="23" column="53" selection-start="616" selection-end="631" vertical-scroll-proportion="25.8" vertical-offset="990" max-vertical-offset="3375">
               <folding />
             </state>
           </provider>
@@ -41,19 +50,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/views/main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="30" selection-start="105" selection-end="105" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="appController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/controllers/appController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="9" selection-start="106" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+            <state line="4" column="6" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
               <folding />
             </state>
           </provider>
@@ -71,7 +71,7 @@
       <file leaf-file-name="userController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/controllers/userController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="39" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+            <state line="24" column="6" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
               <folding />
             </state>
           </provider>
@@ -126,10 +126,10 @@
         <option value="$PROJECT_DIR$/public/.bowerrc" />
         <option value="$PROJECT_DIR$/public/bower.json" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/public/controllers/appController.js" />
         <option value="$PROJECT_DIR$/public/views/main.html" />
-        <option value="$PROJECT_DIR$/public/controllers/userController.js" />
         <option value="$PROJECT_DIR$/public/views/login.html" />
+        <option value="$PROJECT_DIR$/public/controllers/userController.js" />
+        <option value="$PROJECT_DIR$/public/controllers/appController.js" />
         <option value="$PROJECT_DIR$/public/app.js" />
       </list>
     </option>
@@ -221,6 +221,46 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackResidents-Parse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackResidents-Parse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="parse-angular-patch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackResidents-Parse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TrackResidents-Parse" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="components" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -454,13 +494,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/components/parse-angular-patch/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="53" selection-start="616" selection-end="631" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="3375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/components/parse-angular-patch/.bower.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="678">
@@ -482,23 +515,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/controllers/appController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="9" selection-start="106" selection-end="237" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/public/views/main.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="30" selection-start="105" selection-end="105" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/controllers/userController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="39" selection-start="450" selection-end="450" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
           <folding />
         </state>
       </provider>
@@ -510,9 +529,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/public/components/parse-angular-patch/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="53" selection-start="616" selection-end="631" vertical-scroll-proportion="25.8" vertical-offset="990" max-vertical-offset="3375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/controllers/userController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="6" selection-start="740" selection-end="740" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/controllers/appController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="165">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/public/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="49" selection-start="488" selection-end="488" vertical-scroll-proportion="0.3761062" vertical-offset="0" max-vertical-offset="678">
+        <state line="17" column="46" selection-start="485" selection-end="485" vertical-scroll-proportion="0.3761062" vertical-offset="0" max-vertical-offset="678">
           <folding />
         </state>
       </provider>

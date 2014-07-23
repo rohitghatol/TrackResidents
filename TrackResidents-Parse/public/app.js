@@ -15,7 +15,7 @@ angular.module("TrackResidents", ["ngRoute", "ngResource","parse-angular"])
         });
     })
     .run(function($rootScope,$location) {
-        Parse.initialize("APP_ID", "APP_JS_SECRET");
+        Parse.initialize("APP_ID", "APP_SECRET");
         $rootScope.sessionUser = Parse.User.current();
         $location.path($rootScope.sessionUser!=null?"/main":"/login");
 
